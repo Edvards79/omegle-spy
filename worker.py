@@ -1,12 +1,10 @@
-from math import floor
-import _pickle as pickle
+import pytesseract
 import socket
 import os
-from math import floor
-import pytesseract
-from PIL import Image
 import re
-
+from PIL import Image
+import _pickle as pickle
+from math import floor
 
 class MyProtocol:
 
