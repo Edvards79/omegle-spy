@@ -5,12 +5,16 @@ Omegle stores chat logs publicly at http://l.omegle.com/<key>.png, where key is 
 ## How to use
 Master and worker and meant to be installed on seperate machines for performance gains, but can also run on the same PC.
 ##### Installing master
-`git clone https://github.com/Edvards79/omegle-spy.git`
-`cd omegle-spy/master`
-`pip install -r requirements.txt`
+```
+git clone https://github.com/Edvards79/omegle-spy.git
+cd omegle-spy/master
+pip install -r requirements.txt
+```
 ##### Installing worker
-`git clone https://github.com/Edvards79/omegle-spy.git`
-`cd omegle-spy/master`
-`pip install -r requirements.txt`
+```
+git clone https://github.com/Edvards79/omegle-spy.git
+cd omegle-spy/master
+pip install -r requirements.txt
+```
 ##### Configuration
 By default it is configured to run on the localhost. That can be changed in `config.ini` files.
