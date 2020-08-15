@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ##### Installing worker
 ```
 git clone https://github.com/Edvards79/omegle-spy.git
-cd omegle-spy/master
+cd omegle-spy/worker
 pip install -r requirements.txt
 ```
 ##### Configuration
