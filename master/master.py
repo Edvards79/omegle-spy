@@ -330,7 +330,7 @@ class KeyGenerator:
 		self.__cur_key = Key(Key.size_range[0] * "0") # Next key to be given
 		self.__processing = []                        # List of key strings being processed
 		self.__to_process = []                        # List of key strings needed to be processed
-		self.state_file = "KeyGenState.json"
+		self.state_file = "key_gen_state.json"
 	
 	def get(self, amount):
 		"""Gives the specified amount of keys.
